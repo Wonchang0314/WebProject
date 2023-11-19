@@ -1,0 +1,54 @@
+.active {
+  background-color: #999;
+}
+
+.tag-body {
+  margin: 20px;
+}
+
+.tag-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.ask-btn {
+  background-color: #f48024;
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 4px;
+  padding: 0 1rem;
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.tag {
+  border: 1px dotted #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+.tag a {
+  font-size: 18px;
+}
+
+.tag p {
+  font-size: 14px;
+  margin-top: 5px;
+}
